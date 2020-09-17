@@ -3,18 +3,18 @@ description: > # this means to ignore newlines until "baseurl:"
   Blog with theme Future Imperfect<br>
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://dieglory.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-remote_theme : kaptn3/future-imperfect
+#remote_theme : kaptn3/future-imperfect
 
 
 author:
   name: 'Gunwoo'
   last_name: 'Han'
-  cv: '//kaptn.ru'
+#  cv: '//kaptn.ru'
   avatar: '/images/avatar.jpeg'
   github_username:  DieGlory 
   email: aya02245@naver.com
-  vk_id: id201664979
-  telegram_name: vikapitoshka 
+#  vk_id: id201664979
+#  telegram_name: vikapitoshka 
   logo: '/images/logo.svg'
 
 # Build settings
