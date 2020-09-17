@@ -2,20 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>https://dieglory.github.io/category1/2020/first-post.html</loc>
-    </url>
-
-    <url>
-        <loc>https://dieglory.github.io/category2/2018/readme.html</loc>
+        <loc>https://dieglory.github.io/today%20i%20learend/2020/first-post.html</loc>
     </url>
 
 
     <url>
-        <loc>https://dieglory.github.io/category2/</loc>
+        <loc>https://dieglory.github.io/today i learend/</loc>
     </url>
 
     <url>
-        <loc>https://dieglory.github.io/category1/</loc>
+        <loc>https://dieglory.github.io/CS231N/</loc>
+    </url>
+
+    <url>
+        <loc>https://dieglory.github.io/SOTA/</loc>
     </url>
 
     <url>
