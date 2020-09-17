@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: <https://future-imperfect.kaptn.ru/sitemap.xml>
