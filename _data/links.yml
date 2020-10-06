@@ -1,6 +1,6 @@
 # blog page sections
-- name: Today I Learned
-  href: '/Today I Learned/'
+- name: today i learned
+  href: '/today i learned/'
 
-- name: CS231N
+- name: cs231n
   href: '/CS231N/'
