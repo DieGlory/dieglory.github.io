@@ -2,41 +2,53 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>http://localhost:4000/today%20i%20learend/2020/TIL8.html</loc>
+        <loc>http://localhost:4000/going%20deeper/2020/GD(CV)1.html</loc>
     </url>
 
     <url>
-        <loc>http://localhost:4000/today%20i%20learend/2020/TIL7.html</loc>
+        <loc>http://localhost:4000/aiffel_hackathon/2020/aiffel_hackthon1.html</loc>
     </url>
 
     <url>
-        <loc>http://localhost:4000/today%20i%20learend/2020/TIL6.html</loc>
+        <loc>http://localhost:4000/today%20i%20learned/2020/TIL8.html</loc>
     </url>
 
     <url>
-        <loc>http://localhost:4000/today%20i%20learend/2020/TIL5.html</loc>
+        <loc>http://localhost:4000/today%20i%20learned/2020/TIL7.html</loc>
     </url>
 
     <url>
-        <loc>http://localhost:4000/today%20i%20learend/2020/TIL4.html</loc>
+        <loc>http://localhost:4000/today%20i%20learned/2020/TIL6.html</loc>
     </url>
 
     <url>
-        <loc>http://localhost:4000/today%20i%20learend/2020/TIL3.html</loc>
+        <loc>http://localhost:4000/today%20i%20learned/2020/TIL5.html</loc>
     </url>
 
     <url>
-        <loc>http://localhost:4000/today%20i%20learend/2020/TIL2.html</loc>
+        <loc>http://localhost:4000/today%20i%20learned/2020/TIL4.html</loc>
     </url>
 
     <url>
-        <loc>http://localhost:4000/today%20i%20learend/2020/TIL1.html</loc>
+        <loc>http://localhost:4000/today%20i%20learned/2020/TIL3.html</loc>
     </url>
 
     <url>
-        <loc>http://localhost:4000/today%20i%20learend/2020/first-post.html</loc>
+        <loc>http://localhost:4000/today%20i%20learned/2020/TIL2.html</loc>
     </url>
 
+    <url>
+        <loc>http://localhost:4000/today%20i%20learned/2020/TIL1.html</loc>
+    </url>
+
+    <url>
+        <loc>http://localhost:4000/today%20i%20learned/2020/first-post.html</loc>
+    </url>
+
+
+    <url>
+        <loc>http://localhost:4000/going deeper/</loc>
+    </url>
 
     <url>
         <loc>http://localhost:4000/aiffel_hackathon/</loc>
@@ -47,11 +59,11 @@
     </url>
 
     <url>
-        <loc>http://localhost:4000/SOTA/</loc>
+        <loc>http://localhost:4000/today i learned/</loc>
     </url>
 
     <url>
-        <loc>http://localhost:4000/today i learend/</loc>
+        <loc>http://localhost:4000/SOTA/</loc>
     </url>
 
     <url>

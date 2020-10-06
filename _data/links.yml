@@ -4,3 +4,9 @@
 
 - name: cs231n
   href: '/CS231N/'
+
+- name: aiffel_hakathon
+  href: '/aiffel_hackathon/'
+
+- name: SOTA
+  href: '/SOTA/'

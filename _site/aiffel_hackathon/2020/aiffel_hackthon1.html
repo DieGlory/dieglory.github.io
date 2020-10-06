@@ -8,14 +8,14 @@
   
   <meta name="robots" content="all"/>
   <meta name="author" content="Gunwoo">
-  <meta name="description" content="">
+  <meta name="description" content="해커톤 진행 상황 정리">
   <meta property="og:image" content="">
 
   
-  <title>2019-10-06 TIL</title>
+  <title>AIFFEL Hackathon - COVID19 양성 판별 모델 만들기(1)</title>
   
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="http://localhost:4000/today%20i%20learend/2020/TIL8.html">
+  <link rel="canonical" href="http://localhost:4000/aiffel_hackathon/2020/aiffel_hackthon1.html">
   <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="/assets/css/animate.css">
   <script src="/assets/js/jquery.min.js"></script>
@@ -44,6 +44,10 @@
         
           <li><a href="/CS231N/">cs231n</a></li>
         
+          <li><a href="/aiffel_hackathon/">aiffel_hakathon</a></li>
+        
+          <li><a href="/SOTA/">SOTA</a></li>
+        
         
       </ul>
 
@@ -67,6 +71,10 @@
           
           <li><a href="/CS231N/"><h3>cs231n</h3></a></li>
           
+          <li><a href="/aiffel_hackathon/"><h3>aiffel_hakathon</h3></a></li>
+          
+          <li><a href="/SOTA/"><h3>SOTA</h3></a></li>
+          
           
         </ul>
       </section>
@@ -79,9 +87,9 @@
         <article class="post">
   <header> 
     <div class="title">
-      <h2>2019-10-06 TIL</h2>
+      <h2>AIFFEL Hackathon - COVID19 양성 판별 모델 만들기(1)</h2>
       <!-- 
-      <p><a href="//github.com/ViKapitoshka/blog/edit/master/_posts/2020-10-06-TIL8.md" class="icon"><i class="fas fa-fw fa-edit"></i> Редактировать на GitHub</a></p>
+      <p><a href="//github.com/ViKapitoshka/blog/edit/master/_posts/2020-10-06-aiffel_hackthon1.md" class="icon"><i class="fas fa-fw fa-edit"></i> Редактировать на GitHub</a></p>
       -->
     </div>
     <div class="meta">
@@ -89,7 +97,61 @@
       <a href="//github.com/DieGlory/DieGlory" class="author"><span class="name">V.Han</span><img src="/images/avatar.jpeg" alt="ViKapitoshka" /></a>
     </div>
   </header>
-  
+  <h1 id="해커톤-진행-상황-정리">해커톤 진행 상황 정리</h1>
+
+<h2 id="dataset">DataSet</h2>
+<ul>
+  <li>COVID 19 선행 논문 5개를 살펴본 결과 병원들이 소유하고 있는 private dataset은 접근이 불가능함</li>
+  <li>그 외 논문은 대부분 아래 공개된 데이터셋을 이용하여 접근하고 있었음</li>
+  <li>방사선사에 의해 라벨링 된 데이터라 신뢰성이 있다고 판단한거 같음</li>
+</ul>
+
+<h2 id="데이터셋-링크들">데이터셋 링크들</h2>
+<p>🚩 Reference Dataset</p>
+
+<p>1️⃣ ChestXray14 (112000 images of 14 diseased and normal CXR images)
+https://nihcc.app.box.com/v/ChestXray-NIHCC</p>
+
+<p>2️⃣ RSNA Pneumonia Detection Challenge’
+https://www.kaggle.com/c/rsna-pneumonia-detection-challenge/data</p>
+
+<p>3️⃣ Chest X-Ray Images Pneumonia
+https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia</p>
+
+<p>4️⃣ COVID-19 Image
+https://github.com/ieee8023/covid-chestxray-dataset</p>
+
+<p>5️⃣ Audio Dataset
+https://github.com/iiscleap/Coswara-Data
+https://www.covid-19-sounds.org/en/
+https://github.com/virufy/covid</p>
+
+<p>6️⃣ Other
+https://github.com/haydengunraj/COVIDNet-CT
+https://github.com/ieee8023/covid-chestxray-dataset</p>
+
+<p>These are links to sample dataset for reference purpose only. Participants are free to use these or other datasets after studying respective licenses</p>
+
+<p>🚩 Prior Work/Reference</p>
+
+<p>1️⃣ https://www.quantib.com/blog/ai-for-covid-19-radiology
+2️⃣ https://pubs.rsna.org/doi/10.1148/radiol.2020200905
+3️⃣ https://arxiv.org/pdf/2003.09871.pdf</p>
+
+<h2 id="covid-특징들">COVID 특징들</h2>
+
+<ul>
+  <li>
+    <p>현재 검사 방법은 고가, 대면 검사의 위험성, 시간이 오래걸리는 단점을 가지고 있음</p>
+  </li>
+  <li>
+    <p>보통 초기 COVID 19는 흉부 X-ray에서는 잘 보이지 않는다는 소견이 많아 CT가 보편적으로 사용되는 것으로 생각됨</p>
+  </li>
+  <li>
+    <p>현재 CT, X-ray 데이터셋을 어떻게 조합하여 classification을 하는지에 대해 소개하고 있는 논문 리뷰 예정(현수님)</p>
+  </li>
+</ul>
+
 
   
   <!-- 
@@ -101,7 +163,7 @@
   <footer>
     <ul class="stats">
       <li><a class="icon" href="http://localhost:4000"><i class="fas fa-fw fa-folder"></i> Главная</a></li>
-      <li><a href="//github.com/ViKapitoshka/blog/edit/master/_posts/2020-10-06-TIL8.md" class="icon"><i class="fas fa-fw fa-edit"></i> Edit</a></li>
+      <li><a href="//github.com/ViKapitoshka/blog/edit/master/_posts/2020-10-06-aiffel_hackthon1.md" class="icon"><i class="fas fa-fw fa-edit"></i> Edit</a></li>
     </ul>
   </footer>
   -->
@@ -111,8 +173,10 @@
 </article>
 <ul class="actions pagination">
   
-    <li><a href="/today%20i%20learend/2020/TIL7.html" class="button big previous icon"><i class="fw fas fa-chevron-left"></i> 이전 글</a></li>
+    <li><a href="/today%20i%20learned/2020/TIL8.html" class="button big previous icon"><i class="fw fas fa-chevron-left"></i> 이전 글</a></li>
   
+  
+    <li><a href="/going%20deeper/2020/GD(CV)1.html" class="button big next icon">다음 글<i class="fw fas fa-chevron-right"></i></a></li>
   
 </ul>
 
