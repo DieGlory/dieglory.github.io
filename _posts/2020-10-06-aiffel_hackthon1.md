@@ -45,7 +45,7 @@ These are links to sample dataset for reference purpose only. Participants are f
 🚩 Prior Work/Reference
 
 1️⃣ https://www.quantib.com/blog/ai-for-covid-19-radiology
-2️⃣ https://pubs.rsna.org/doi/10.1148/radiol.2020200905
+2️⃣ https://pubs.rsna.org/doi/10.1148/radioSl.2020200905
 3️⃣ https://arxiv.org/pdf/2003.09871.pdf
 
 ## COVID 특징들
