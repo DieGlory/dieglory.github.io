@@ -2,15 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
+        <loc>http://localhost:4000/today%20i%20learned/2020/TIL8.html</loc>
+    </url>
+
+    <url>
+        <loc>http://localhost:4000/exploration/2020/Exploration17.html</loc>
+    </url>
+
+    <url>
         <loc>http://localhost:4000/going%20deeper/2020/GD(CV)1.html</loc>
     </url>
 
     <url>
         <loc>http://localhost:4000/aiffel_hackathon/2020/aiffel_hackthon1.html</loc>
-    </url>
-
-    <url>
-        <loc>http://localhost:4000/today%20i%20learned/2020/TIL8.html</loc>
     </url>
 
     <url>
@@ -45,6 +49,10 @@
         <loc>http://localhost:4000/today%20i%20learned/2020/first-post.html</loc>
     </url>
 
+
+    <url>
+        <loc>http://localhost:4000/exploration/</loc>
+    </url>
 
     <url>
         <loc>http://localhost:4000/going deeper/</loc>

@@ -1,4 +1,4 @@
-I"n<h1 id="해커톤-진행-상황-정리">해커톤 진행 상황 정리</h1>
+I"o<h1 id="해커톤-진행-상황-정리">해커톤 진행 상황 정리</h1>
 
 <h2 id="dataset">DataSet</h2>
 <ul>
@@ -36,7 +36,7 @@ https://github.com/ieee8023/covid-chestxray-dataset</p>
 <p>🚩 Prior Work/Reference</p>
 
 <p>1️⃣ https://www.quantib.com/blog/ai-for-covid-19-radiology
-2️⃣ https://pubs.rsna.org/doi/10.1148/radiol.2020200905
+2️⃣ https://pubs.rsna.org/doi/10.1148/radioSl.2020200905
 3️⃣ https://arxiv.org/pdf/2003.09871.pdf</p>
 
 <h2 id="covid-특징들">COVID 특징들</h2>
