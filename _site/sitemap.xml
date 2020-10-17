@@ -2,6 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
+        <loc>http://localhost:4000/paper/2020/PAPER1.html</loc>
+    </url>
+
+    <url>
         <loc>http://localhost:4000/today%20i%20learned/2020/TIL9.html</loc>
     </url>
 
@@ -53,6 +57,10 @@
         <loc>http://localhost:4000/today%20i%20learned/2020/first-post.html</loc>
     </url>
 
+
+    <url>
+        <loc>http://localhost:4000/paper/</loc>
+    </url>
 
     <url>
         <loc>http://localhost:4000/exploration/</loc>

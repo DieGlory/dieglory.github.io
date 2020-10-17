@@ -1,0 +1,12 @@
+I"<h1 id="imagenet-trained-cnns-are-biased-towards-texture-increasing-shape-bias-improves-accuracy-and-robustness">IMAGENET-TRAINED CNNS ARE BIASED TOWARDS TEXTURE; INCREASING SHAPE BIAS IMPROVES ACCURACY AND ROBUSTNESS</h1>
+
+<h2 id="abstract">ABSTRACT</h2>
+
+<ul>
+  <li>컨볼루션 신경망은 보통 물체의 형태를 학습하여 인식한다고 생각하지만, 최근 연구들은 오히려 이미지의 텍스쳐가 중요한 역할을 한다고 제시</li>
+  <li>저자는 CNN과 사람에게 texture-shape cue conflict 이미지를 관찰하게 하고 테스트를 진행</li>
+  <li>실험을 통해 ImageNet을 학습한 CNN 모델이 형상보다는 텍스쳐에 강하게 편향되어 있음을 확인</li>
+  <li>사람과 CNN이 물체를 인식할 때 근본적으로 다른 전략을 취한다는 증거가 드러남</li>
+  <li>저자는 ImageNet을 학습하여 텍스쳐에 편향된 CNN 모델들도 저자가 제안하는 Stylized-ImageNet을 학습하면 형상 기반 표현들을 학습할 수 있음을 확인했다고</li>
+</ul>
+:ET
