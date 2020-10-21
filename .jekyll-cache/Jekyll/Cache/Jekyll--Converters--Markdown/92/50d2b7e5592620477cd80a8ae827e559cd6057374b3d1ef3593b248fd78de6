@@ -1,0 +1,17 @@
+I"|<h1 id="논문-읽기">논문 읽기</h1>
+<ul>
+  <li>IMAGENET-TRAINED CNNS ARE BIASED TOWARDS
+TEXTURE; INCREASING SHAPE BIAS IMPROVES
+ACCURACY AND ROBUSTNESS 읽기 -&gt; 완료</li>
+</ul>
+
+<h1 id="파이토치-공부">파이토치 공부</h1>
+
+<ul>
+  <li>gaussian 노이즈를 강도별로 준 이미지들로 acc 확인해보기
+    <ul>
+      <li></li>
+    </ul>
+  </li>
+</ul>
+:ET
